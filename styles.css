@@ -1,0 +1,27 @@
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding-top: 20px ;
+}
+
+.menus{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    font-size: 20px;
+    color:aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.banner-container{
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"), linear-gradient(45deg, rgb(51, 59, 56) 0%, rgb(97, 99, 123) 100%);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
